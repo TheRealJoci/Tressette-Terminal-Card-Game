@@ -1,0 +1,2 @@
+# Treseta
+Kartaska igra treseta
