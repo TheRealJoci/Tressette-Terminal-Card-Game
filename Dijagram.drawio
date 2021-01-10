@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T22:29:23.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="XIiASdIFSj4tttf6YnhS" version="14.1.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-10T22:37:23.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="kiczBbywo90ti00YYDIc" version="14.1.8" type="github" pages="8">
   <diagram id="0Fst5V195PZcNs_4YtCk" name="UseCase: Igranje tresete">
     <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -210,23 +210,66 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ro99kvMIIQ44E48RLCmR-2" value="Sustav promješa karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
-          <mxGeometry x="365" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="365" y="550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ro99kvMIIQ44E48RLCmR-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="ro99kvMIIQ44E48RLCmR-2" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ro99kvMIIQ44E48RLCmR-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="410" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRRsXrVzIFSJ7BbaRPid-1" value="Sustav provjerava je li ovo prvo miješanje u partiji" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="365" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MRRsXrVzIFSJ7BbaRPid-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="MRRsXrVzIFSJ7BbaRPid-1" parent="0AP0zJmIwXNZzOm0lqMq-1" target="zodhfKNtMZjm0Bnw0Zfp-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="425" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ro99kvMIIQ44E48RLCmR-4" value="Sustav podijeli karte igračima" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
-          <mxGeometry x="365" y="290" width="120" height="40" as="geometry" />
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-0" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="385" y="300" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ro99kvMIIQ44E48RLCmR-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="ro99kvMIIQ44E48RLCmR-4" parent="0AP0zJmIwXNZzOm0lqMq-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="390" as="targetPoint" />
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-1" value="DA" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="zodhfKNtMZjm0Bnw0Zfp-0" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="570" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ro99kvMIIQ44E48RLCmR-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
-          <mxGeometry x="410" y="390" width="30" height="30" as="geometry" />
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-2" value="NE" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="zodhfKNtMZjm0Bnw0Zfp-0" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="425" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-5" value="Sustav postavlja sljedečeg igrača prema prijašnjem sljedečem igraču iz prošlog mješanja" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="365" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="zodhfKNtMZjm0Bnw0Zfp-5" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-7" value="Sustav nasumice postavlja sljedećeg igrača" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="570" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zodhfKNtMZjm0Bnw0Zfp-7" parent="0AP0zJmIwXNZzOm0lqMq-1" target="ro99kvMIIQ44E48RLCmR-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-10" value="Sustav podijeli karte igračima" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry x="365" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zodhfKNtMZjm0Bnw0Zfp-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="zodhfKNtMZjm0Bnw0Zfp-10" parent="0AP0zJmIwXNZzOm0lqMq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
