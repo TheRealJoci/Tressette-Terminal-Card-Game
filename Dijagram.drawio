@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T22:23:29.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="jjqPAJ0vAezOmt7B81TI" version="14.2.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-24T22:37:07.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="BtZTN8qTxKn9w4NicifU" version="14.2.6" type="github" pages="11">
   <diagram id="0Fst5V195PZcNs_4YtCk" name="UseCase: Igranje tresete">
     <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ukarMKEExvuun9PaH5dM" name="Activity: Igranje tresete">
-    <mxGraphModel dx="1550" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="uR3n9-pZLwS0igjvZuAs-0" />
         <mxCell id="uR3n9-pZLwS0igjvZuAs-1" parent="uR3n9-pZLwS0igjvZuAs-0" />
@@ -113,14 +113,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTsRo7Bw9-PEUqWDXdn4-8" value="NASTAVAK" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="uR3n9-pZLwS0igjvZuAs-1" source="ZTsRo7Bw9-PEUqWDXdn4-4" target="uR3n9-pZLwS0igjvZuAs-7" edge="1">
-          <mxGeometry x="-0.881" relative="1" as="geometry">
+          <mxGeometry x="-0.7592" relative="1" as="geometry">
             <mxPoint x="370" y="-430" as="targetPoint" />
             <mxPoint x="430" y="-400" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="230" y="-440" />
               <mxPoint x="230" y="-750" />
             </Array>
-            <mxPoint x="1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eX7KL0uMv1oBnG3cpCKi-0" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="uR3n9-pZLwS0igjvZuAs-1">
@@ -133,7 +133,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A4jbQiV3eGs2_ku9hFZB" name="Activity: Unos igrača">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="LcD0vWBmEG_A1QQOMy2T-0" />
         <mxCell id="LcD0vWBmEG_A1QQOMy2T-1" parent="LcD0vWBmEG_A1QQOMy2T-0" />
@@ -210,7 +210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WLYsfltKDfddUQN6L3Z4" name="Activity: Dijeljenje karata">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0AP0zJmIwXNZzOm0lqMq-0" />
         <mxCell id="0AP0zJmIwXNZzOm0lqMq-1" parent="0AP0zJmIwXNZzOm0lqMq-0" />
@@ -288,7 +288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D-63xcbVy0WQUEL_0c_6" name="Activity: Igranje runde">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="c0qY6PS-3ENuRapn7kGE-0" />
         <mxCell id="c0qY6PS-3ENuRapn7kGE-1" parent="c0qY6PS-3ENuRapn7kGE-0" />
@@ -343,7 +343,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HP_t3BoI6za2Lk2CZmBy" name="Activity: Igranje kruga">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="ZrWpBrLJG70bCCiPiyUb-0" />
         <mxCell id="ZrWpBrLJG70bCCiPiyUb-1" parent="ZrWpBrLJG70bCCiPiyUb-0" />
@@ -407,7 +407,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dI0CorhLxCPWXTXeC1Ox" name="Activity: Igranje karte sljedećeg igrača">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="6NPqmbId2nZFuEMeBqPy-0" />
         <mxCell id="6NPqmbId2nZFuEMeBqPy-1" parent="6NPqmbId2nZFuEMeBqPy-0" />
@@ -594,7 +594,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_0l10UQx-oh5KF7xBDwH" name="Activity: Evaluacija odigranog kruga">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="k3D_p9H_ID8sKr_7_CLb-0" />
         <mxCell id="k3D_p9H_ID8sKr_7_CLb-1" parent="k3D_p9H_ID8sKr_7_CLb-0" />
@@ -646,7 +646,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HIBjFScgWlqJArkHaBUe" name="Activity: Bodovanje">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lZies3B38XR9dSIHZJr2-0" />
         <mxCell id="lZies3B38XR9dSIHZJr2-1" parent="lZies3B38XR9dSIHZJr2-0" />
@@ -709,7 +709,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wqaMqO0DfFZzzBKZuw-L" name="Dijagram arhitekture Trešete">
-    <mxGraphModel dx="2583" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="873" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="LeEQZhTyp1iXySnFzG6N-0" />
         <mxCell id="LeEQZhTyp1iXySnFzG6N-1" parent="LeEQZhTyp1iXySnFzG6N-0" />
