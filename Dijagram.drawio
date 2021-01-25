@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T22:54:46.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-FDkzR9c8KAjvv9cV3q1" version="14.2.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-25T04:44:01.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="tjETCvJ6yDnHUxZCF_FR" version="14.2.6" type="github" pages="11">
   <diagram id="0Fst5V195PZcNs_4YtCk" name="UseCase: Igranje tresete">
     <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -522,7 +522,7 @@
         <mxCell id="oqeb2sAxPioYKDgU9shy-4" value="Igrač od karata u ruci označava onu koju želi odigrati" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6NPqmbId2nZFuEMeBqPy-1" vertex="1">
           <mxGeometry x="430" y="762" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oqeb2sAxPioYKDgU9shy-5" value="Sustav zabilježava odigranu kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6NPqmbId2nZFuEMeBqPy-1" vertex="1">
+        <mxCell id="oqeb2sAxPioYKDgU9shy-5" value="Sustav zabilježava odigranu kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#f8cecc;strokeColor=#b85450;" parent="6NPqmbId2nZFuEMeBqPy-1" vertex="1">
           <mxGeometry x="430" y="862" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oqeb2sAxPioYKDgU9shy-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6NPqmbId2nZFuEMeBqPy-1" source="oqeb2sAxPioYKDgU9shy-5" target="aeC5Q3m-xW2lrA8mAA2f-0" edge="1">
@@ -633,7 +633,7 @@
         <mxCell id="EeGGHN3igcpwCOQIcz92-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="k3D_p9H_ID8sKr_7_CLb-1" vertex="1">
           <mxGeometry x="570" y="650" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OlqjH4uzaBRCGrRwEs6y-0" value="Sustav ispisuje koji je par osvojio odigrani krug i koji je sljedeći igrač" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="k3D_p9H_ID8sKr_7_CLb-1">
+        <mxCell id="OlqjH4uzaBRCGrRwEs6y-0" value="Sustav ispisuje koji je igrač osvojio odigrani krug i koji je sljedeći igrač" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="k3D_p9H_ID8sKr_7_CLb-1">
           <mxGeometry x="525" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlqjH4uzaBRCGrRwEs6y-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="k3D_p9H_ID8sKr_7_CLb-1">
@@ -709,7 +709,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wqaMqO0DfFZzzBKZuw-L" name="Dijagram arhitekture Trešete">
-    <mxGraphModel dx="873" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="LeEQZhTyp1iXySnFzG6N-0" />
         <mxCell id="LeEQZhTyp1iXySnFzG6N-1" parent="LeEQZhTyp1iXySnFzG6N-0" />
@@ -832,7 +832,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4MuoYBKWAyiIsdPnQh8T" name="Dijagram klasa modela tresete">
-    <mxGraphModel dx="899" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="EFZcNYhXfoERid09aZKw-0" />
         <mxCell id="EFZcNYhXfoERid09aZKw-1" parent="EFZcNYhXfoERid09aZKw-0" />
@@ -988,8 +988,7 @@
             <mxPoint x="688.88" y="613.226" as="sourcePoint" />
             <mxPoint x="530" y="613" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="900" y="400" />
-              <mxPoint x="899" y="400" />
+              <mxPoint x="899" y="410" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1004,8 +1003,8 @@
             <mxPoint x="708.88" y="593.226" as="sourcePoint" />
             <mxPoint x="550.0000000000001" y="520.0020000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="471" />
-              <mxPoint x="710" y="152" />
+              <mxPoint x="650" y="471" />
+              <mxPoint x="650" y="152" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1020,8 +1019,8 @@
             <mxPoint x="789.8399999999999" y="618.5740000000001" as="sourcePoint" />
             <mxPoint x="550" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="497" />
-              <mxPoint x="680" y="300" />
+              <mxPoint x="600" y="497" />
+              <mxPoint x="600" y="300" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1036,8 +1035,8 @@
             <mxPoint x="810" y="529.5" as="sourcePoint" />
             <mxPoint x="550" y="529.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="530" />
-              <mxPoint x="650" y="492" />
+              <mxPoint x="560" y="530" />
+              <mxPoint x="560" y="492" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
