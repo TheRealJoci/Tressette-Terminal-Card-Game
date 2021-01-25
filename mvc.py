@@ -158,6 +158,12 @@ class Player():
     def setTeam(self, team):
         self.__team = team
 
+    def isInHand(self, cardList):
+        for card in cardList:
+            if card not in self.hand:
+                return False
+        return True
+
     def __str__(self):
         return f'{self.name}'
 
@@ -211,14 +217,14 @@ class View():
     def logOutput(self):
         pass
 
-    def callInput(self):
+    def callInput(self, player):
         while True:
             answer = input("Želite li unijeti zvanje(\"DA\" ili \"NE\"): ")
             cardList = []
 
             if answer == "DA":
                 cardList =  input("Unesite željeno zvanje(karte odvojene zarezima i razmakom): ").split(", ")
-                if Card.isValidCall(cardList):
+                if Card.isValidCall(cardList) and player.isInHand(cardList):
                     # fali interakcija
                     print("Vaše zvanje je uneseno!")
                 else:
@@ -250,25 +256,27 @@ class View():
             else:
                 print("Unijeli ste krivi mot, pokušajte ponovo.")
 
-    def playingCardInput(self):
+    def playingCardInput(self, player):
         while True:
             answer = input("Unesite kartu koju želite odigrati: ")
 
             if answer in player.hand:
-                # fali interakcija
                 print(f"Odigrali ste kartu: {answer}.")
-                break
+                return answer
             else:
                 print("Unijeli ste krivu kartu, pokušajte ponovo.")
     
     def roundScoreOutput(self):
-        print(f"U ovoj rundi ste osvojili {""} bodova, dok je protivnički ti osvojio {""} bodova.")
+        print(f"U ovoj rundi ste osvojili {""} bodova, dok je protivnički tim osvojio {""} bodova.")
 
     def endGameOutput(self):
         if "winner":
             print(f"Pobijedili ste u ovoj igri {""}:{""}.")
         else:
             print(f"Izgubili ste u ovoj igri {""}:{""}.")
+
+    def playedHandOutput(self, player):
+        print(f"{player} je uzeo ruku.")
 
 class Game():
     def __init__(self):
@@ -278,6 +286,7 @@ class Game():
         self.__players = (None, None, None, None)
         self.__firstRound = True
         self.__firstPlayer = -1
+        self.__playedHand = []
 
     @property
     def view(self):
@@ -302,6 +311,14 @@ class Game():
     @property
     def teams(self):
         return self.__teams
+
+    @property
+    def firstRound(self):
+        return self.__firstRound
+
+    @property
+    def playedHand(self):
+        return self.__playedHand
         
     def playingTreseta(self):
         self.view.startGameOutput()
@@ -315,12 +332,11 @@ class Game():
             self.__players[i] = PC()
         
         self.__players[3] = Human(self.view.nameInput())
-
     
     def dealCards(self):
         if self.__firstRound:
             self.firstPlayer = random.randint(0, 3)
-            self.__firstRound = False
+            self.__firstRound = True
         else:
             if self.firstPlayer == 3:
                 self.firstPlayer == 0
@@ -342,14 +358,41 @@ class Game():
         pass
 
     def playHand(self):
-        pass
+        for player in self.playersOrdered():
+            self.playCard(player)
+        
+        if self.firstRound:
+            self.firstRound = False
+        
+        self.evaluateHand()
 
-    def playCard(self):
-        pass
+    def playCard(self, player):
+        if self.firstRound:
+            self.view.callInput(player)
+
+        if player == self.firstPlayer:
+            self.view.signInput()
+
+        playedCard = self.view.playingCardInput(player)
+        self.playedHand.append(playedCard)
 
     def evaluateHand(self):
-        pass
+        relativeIndex = -1
+        for i, card in enumerate(self.playedHand):
+            if i>relativeIndex:
+                relativeIndex = i
 
+        self.firstPlayer = self.firstPlayer + relativeIndex if self.firstPlayer + relativeIndex < 4 else self.firstPlayer + relativeIndex - 4
+        self.players[self.firstPlayer].team.addCollectedCards(self.playedHand)
+        self.view.playedHandOutput()
+
+    def playersOrdered(self):
+        players = []
+
+        for i in range(0,4):
+            players.append(self.players[self.firstPlayer + i if self.firstPlayer + i < 4 else self.firstPlayer + i - 4])
+        
+        return players
 
 
 def terminal_mani():
@@ -360,5 +403,5 @@ def terminal_mani():
 
     if h:
         os.system('cls' if os.name == 'nt' else 'clear')
-        
+
     print("DA")
