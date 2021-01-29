@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T09:55:23.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="e8_vI_eTWWzjw7ziXm6J" version="14.2.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-29T12:06:19.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="faG-5K5yfAu2kSdC9wJI" version="14.2.7" type="github" pages="11">
   <diagram id="0Fst5V195PZcNs_4YtCk" name="UseCase: Igranje tresete">
     <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -434,12 +434,11 @@
         <mxCell id="ixOl9SNpSAQQa3877kY4-7" value="Igranje karte sljedečeg AI igrača" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZrWpBrLJG70bCCiPiyUb-1">
           <mxGeometry x="525" y="570" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ixOl9SNpSAQQa3877kY4-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="ZrWpBrLJG70bCCiPiyUb-1" source="ixOl9SNpSAQQa3877kY4-7" target="h1AYrbhvQYX0mzS64xjo-2">
+        <mxCell id="ixOl9SNpSAQQa3877kY4-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="ZrWpBrLJG70bCCiPiyUb-1" source="ixOl9SNpSAQQa3877kY4-7" target="h1AYrbhvQYX0mzS64xjo-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="585" y="640" />
-              <mxPoint x="310" y="640" />
+              <mxPoint x="310" y="590" />
               <mxPoint x="310" y="175" />
             </Array>
             <mxPoint x="240" y="620" as="sourcePoint" />
