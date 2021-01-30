@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T01:51:50.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="6r-2JlkfVx6kXKt_wYDj" version="14.2.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-30T01:55:59.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="TwZ-cGxIyx78IC1kll3q" version="14.2.9" type="github" pages="12">
   <diagram id="0Fst5V195PZcNs_4YtCk" name="UseCase: Igranje tresete">
     <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1126,11 +1126,11 @@
             <mxPoint x="23" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GXTs4TSISkRQYN6LT5tX-16" value="deck: Deck" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#990000;" vertex="1" parent="GXTs4TSISkRQYN6LT5tX-1">
-          <mxGeometry x="940" y="130" width="100" height="300" as="geometry" />
+        <mxCell id="GXTs4TSISkRQYN6LT5tX-16" value="cards: Card" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#990000;" vertex="1" parent="GXTs4TSISkRQYN6LT5tX-1">
+          <mxGeometry x="950" y="140" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="GXTs4TSISkRQYN6LT5tX-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GXTs4TSISkRQYN6LT5tX-16">
-          <mxGeometry x="45" y="190" width="10" height="20" as="geometry" />
+          <mxGeometry x="45" y="180" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GXTs4TSISkRQYN6LT5tX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GXTs4TSISkRQYN6LT5tX-1" target="GXTs4TSISkRQYN6LT5tX-16">
           <mxGeometry relative="1" as="geometry">
@@ -1142,7 +1142,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GXTs4TSISkRQYN6LT5tX-19" value="4: [color x name] := __init__(color, name)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GXTs4TSISkRQYN6LT5tX-18">
+        <mxCell id="GXTs4TSISkRQYN6LT5tX-19" value="4: cards *[color * name] := __init__(color, name)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GXTs4TSISkRQYN6LT5tX-18">
+          <mxGeometry x="-0.2512" y="3" relative="1" as="geometry">
+            <mxPoint x="39" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXTs4TSISkRQYN6LT5tX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GXTs4TSISkRQYN6LT5tX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="390" />
+              <mxPoint x="270" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXTs4TSISkRQYN6LT5tX-22" value="5: playingTreseta()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GXTs4TSISkRQYN6LT5tX-21">
           <mxGeometry x="-0.2512" y="3" relative="1" as="geometry">
             <mxPoint x="23" y="-7" as="offset" />
           </mxGeometry>
