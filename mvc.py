@@ -305,9 +305,9 @@ class View():
 
     def endGameOutput(self, team):
         if team.isHumansTeam:
-            print(f"Pobijedili ste u ovoj igri {team.points}:{Team.otherTeam.points}.")
+            print(f"Pobijedili ste u ovoj igri!")
         else:
-            print(f"Izgubili ste u ovoj igri {team.points}:{Team.otherTeam.points}.")
+            print(f"Izgubili ste u ovoj igri!")
 
     def playedHandOutput(self, player):
         print(f"{player} je uzeo ruku.")
