@@ -51,14 +51,17 @@ class Card():
         validCalls = [
             {'kupa 1', 'špadi 1', 'dinari 1', 'baštoni 1'},
             {'kupa 1', 'špadi 1', 'baštoni 1'},
+            {'kupa 1', 'špadi 1', 'dinari 1'},
             {'kupa 1', 'dinari 1', 'baštoni 1'},
             {'špadi 1', 'dinari 1', 'baštoni 1'},
             {'kupa 2', 'špadi 2', 'dinari 2', 'baštoni 2'},
             {'kupa 2', 'špadi 2', 'baštoni 2'},
+            {'kupa 2', 'špadi 2', 'dinari 2'},
             {'kupa 2', 'dinari 2', 'baštoni 2'},
             {'špadi 2', 'dinari 2', 'baštoni 2'},
             {'kupa 3', 'špadi 3', 'dinari 3', 'baštoni 3'},
             {'kupa 3', 'špadi 3', 'baštoni 3'},
+            {'kupa 3', 'špadi 3', 'dinari 3'},
             {'kupa 3', 'dinari 3', 'baštoni 3'},
             {'špadi 3', 'dinari 3', 'baštoni 3'},
             {'kupa 1', 'kupa 2', 'kupa 3'},
@@ -416,10 +419,10 @@ class Game():
             if self.firstRound:
                 self.firstRound = False
     
-    def scoring(self):                                                                              #1
-        teams = (self.players[0].team, self.players[1].team)                                        #
+    def scoring(self):                                                  #1                            #1
+        teams = (self.players[0].team, self.players[1].team)            #2                          #
         
-        for team in teams:
+        for team in teams:                                              #3
             team.addPoints(sum([card.pointValue for card in team.collectedCards])//3)
         self.players[self.firstPlayer].team.addPoints(1)
 
